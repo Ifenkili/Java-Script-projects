@@ -1,0 +1,13 @@
+ body {
+     align-items: center;
+     text-align: center;
+ }
+
+ #click {
+     font-weight: bolder;
+     font-size: 30px;
+     background-color: lightblue;
+     border: solid grey 5px;
+     padding: 20px;
+     width: 30%
+ }

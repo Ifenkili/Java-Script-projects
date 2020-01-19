@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="currencyConverter.css">
+    <script language="JavaScript" src="currencyConverter.js"></script>
+</head>
+
+<body>
+    <!--CURRENCY COVERTER-->
+    <h2>Currency converter</h2>
+    <img src="Currency.png" alt="$ and Euro symbols" class="img-fluid" id="money" width='550' height='200'>
+    <p>Please enter the amount in rands you wish to convert in the space provided and<br>
+        click the button at the bottom to convert to dollars, pounds or Euros.</p>
+    <form name="converter">
+        <table border="0">
+            <tbody>
+                <tr>
+                    <td colspan="2" align="center">AMOUNT IN RANDS (ZAR) R:</td>
+                    <td><input id="mainAmount" type="text" name="Rand" onchange="ZARConverter()"></td>
+                </tr>
+                <tr>
+                    <td>USD: $ </td>
+                    <td><input id="amount" type="text" name="Dollar" onchange="USDConverter()"></td>
+                </tr>
+                <tr>
+                    <td>GBP: £ </td>
+                    <td><input id="amount" type="text" name="Pound" onchange="GBPConverter()"></td>
+                </tr>
+                <tr>
+                    <td>EUR: € </td>
+                    <td><input id="amount" type="text" name="Euro" onchange="EURConverter()"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input id="clicker" type="button" value="Click to convert"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

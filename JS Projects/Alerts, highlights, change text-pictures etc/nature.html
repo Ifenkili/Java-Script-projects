@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nature</title>
+    <script src="nature.js"></script>
+</head>
+
+<body onload="loadAlert()">
+    <!--basic HTML file with a few headings, paragraphs, forms,
+    and images, each item has an ID assigned to it. -->
+    <h1 id='topicHead'>Nature </h1>
+    <img id='imageSwap' src="cat.jpg" alt="curiousCat" width="200" height="150">
+    <button type="button" onclick="swapImage()">Other image</button>
+    <p class='phighlight' id='changeSize' onmouseover="mHighlight()" onmouseout="noHighlight()"> Nature nature nature</p>
+    <button type="button" onclick="fontSize()">Set font size</button>
+    <p class='phighlight' id='newStyle' onmouseover="mHighlight()" onmouseout="noHighlight()">Today's focus is on nature.</p>
+    <button id="changeStyle" onclick="changeStyle()">Style</button>
+    <h2>What do you like most?</h2>
+    <p class='phighlight' id='chighlight' onmouseover="mHighlight()" onmouseout="noHighlight()"> What do you like most about nature?
+        <button id='highlights' onclick="highlight()">Highlight</button></p>
+    <h5>Pssst...Right click the horses</h5>
+    <img id='hideHorses' src="horses.jpg" alt="Wild horses" width="200" height="150" oncontextmenu="describeAlert()">
+    <button id='hidden' onclick="hideImage()">Hide</button><br>
+    <p class='phighlight' onmouseover="mHighlight()" onmouseout="noHighlight()">the animals, the plants, the elements?</p>
+    <img id='changeImage' src="Heartsalad.jpg" onmouseover="newImage()" onmouseout="oldImage()" width="200" height="150">
+    <h3 id='reference'>If you are a cat lover </h3>
+    <p class='phighlight' onmouseover="mHighlight()" onmouseout="noHighlight()"> Do you also like the big cats?</p>
+    <h2 id='subscription'>Tell me a bit about yourself </h2>
+    <!--In the form below, when the Submit button of this form is clicked, the function
+        called submitAlert() will be called. -->
+    <form onsubmit="submitAlert()">
+        <label>Full Name</label>
+        <input type="text" id='fullName' name="fullName" required>
+        <label>Where do you live?</label>
+        <input type="text" id='neighbourhood' name="neighbourhood" required="">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+body {
+    max-width: 500px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    background-color: rgb(212, 213, 243);
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 260px;
+    color: grey;
+    padding: 10px;
+}
+
+.operatorKey {
+    background-color: rgb(230, 230, 230);
+    color: rgb(88, 160, 243);
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.numberKey {
+    background-color: white;
+    color: black;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    font-size: 30;
+}
+
+#equalKey {
+    background-color: rgb(88, 160, 243);
+    color: white;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+#clearKey {
+    background-color: rgb(135, 10, 22);
+    color: white;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+#display {
+    background-color: white;
+    color: black;
+    font-size: 30;
+    width: 110%;
+    align-items: center;
+    padding: 20px;
+}
